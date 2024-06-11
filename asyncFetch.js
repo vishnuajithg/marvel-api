@@ -9,7 +9,7 @@ url3 = 'https://pro-api.coinmarketcap.com/v1/blockchain/statistics/latest/020479
 
 async function f(){
 
-response = await fetch(url3)
+response = await fetch(url2)
 const re = await response.json()
 // promise.(jsonData => console.log(jsonData))
     // console.log(re['main']['temp'])
